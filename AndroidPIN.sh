@@ -25,16 +25,18 @@ function files() {
 }
 function banner() {
 
-echo -e "${lb}
-
-▀▀█▀▀ ░█▀▀▀ ░█▀▀█ ░█─░█ ░█▀▀▀█ ░█─▄▀ ▀█▀ ░█▄─░█ ░█▀▀█ 
-─░█── ░█▀▀▀ ░█─── ░█▀▀█ ─▀▀▀▄▄ ░█▀▄─ ░█─ ░█░█░█ ░█─▄▄ 
-─░█── ░█▄▄▄ ░█▄▄█ ░█─░█ ░█▄▄▄█ ░█─░█ ▄█▄ ░█──▀█ ░█▄▄█
+echo -e "${lb}                                                                       
+     ,--.                                    ,---.,-----.,----.  ,---.  
+     |  | ,---. ,--.--.,--.--.,--. ,--.     /    ||  .--''.-.  || o   \ 
+,--. |  || .-. :|  .--'|  .--' \  '  /     /  '  |'--. `\  .' < `..'  | 
+|  '-'  /\   --.|  |   |  |     \   ',----.'--|  |.--'  //'-'  | .'  /  
+ `-----'  `----'`--'   `--'   .-'  / '----'   `--'`----' `----'  `--'   
+                              `---'                                     
   $version
 ${n}"
 echo -e "${m}   Unloack Interface LockScreen${n}"
 echo -e "${m}       Android/IOS Hacking${n}"
-echo -e "${lb}      itechsking - AndroidPIN${n}"
+echo -e "${lb}      Jerry4539 - AndroidPIN${n}"
 }
 
 # function menu() {
@@ -85,7 +87,7 @@ clear
   14.Get WebCam {Over Internet}
   99.Exit
   ${n}"
-  read -p "itechsking@:~# " select
+  read -p "Jerry4539//:~# " select
 if [[ $select == 1 ]]; then
   # remove old version
   rm -f "${path}/Androidpin" >/dev/null 2>&1
@@ -460,7 +462,7 @@ elif [[ $select == 12 ]]; then
   # 2.
   # 99.Menu
   # ${n}"
-  # read -p "itechsking@:~# " select
+  # read -p "Jerry4539//:~# " select
   # if [[ $select == 1 ]]; then
   manu=$(adb shell getprop ro.product.manufacturer)
   model=$(adb shell getprop ro.product.model)
