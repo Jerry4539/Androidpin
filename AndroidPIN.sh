@@ -26,18 +26,18 @@ function files() {
 function banner() {
 
 echo -e "${lb}
-
-     ██ ███████ ██████  ██████  ██    ██         ██   ██ ███████ ██████   █████  
-     ██ ██      ██   ██ ██   ██  ██  ██          ██   ██ ██           ██ ██   ██ 
-     ██ █████   ██████  ██████    ████           ███████ ███████  █████   ██████ 
-██   ██ ██      ██   ██ ██   ██    ██                 ██      ██      ██      ██ 
- █████  ███████ ██   ██ ██   ██    ██    ███████      ██ ███████ ██████   █████  
-                                                                    
+      _                       _  _  ____ _____ ___  
+     | | ___ _ __ _ __ _   _ | || || ___|___ // _ \ 
+  _  | |/ _ \ '__| '__| | | || || ||___ \ |_ \ (_) |
+ | |_| |  __/ |  | |  | |_| ||__   _|__) |__) \__, |
+  \___/ \___|_|  |_|   \__, |___|_||____/____/  /_/ 
+                       |___/_____|                  
+                                                          
   $version
 ${n}"
 echo -e "${m}   Unloack Interface LockScreen${n}"
 echo -e "${m}       Android/IOS Hacking${n}"
-echo -e "${lb}      itechsking - AndroidPIN${n}"
+echo -e "${lb}      Jerry4539 - AndroidPIN${n}"
 }
 
 # function menu() {
@@ -88,7 +88,7 @@ clear
   14.Get WebCam {Over Internet}
   99.Exit
   ${n}"
-  read -p "itechsking@:~# " select
+  read -p "Jerry4539@:~# " select
 if [[ $select == 1 ]]; then
   # remove old version
   rm -f "${path}/Androidpin" >/dev/null 2>&1
@@ -244,7 +244,7 @@ elif [[ $select == 7 ]]; then
 99.Menu
 ${n}  "
 fpath="backup"
-read -p "itechsking@:~# " select
+read -p "Jerry4539@:~# " select
   if [[ $select == 1 ]]; then
       echo "Opening Shell..."
       sleep 3
@@ -302,7 +302,7 @@ elif [[ $select == 8 ]]; then
   1.Fastboot
   2.Recovery
   ${n}"
-  read -p "itechsking@:~# " select
+  read -p "Jerry4539@:~# " select
   if [[ $select == 1 ]]; then
     adb reboot bootloader
     deviceConnected=konek
@@ -346,7 +346,7 @@ echo -e "${lh}
 4.Inject Payload In Original Application
 99.Menu
 ${n}"
-read -p "iechsking@:~# " select
+read -p "Jerry4539@:~# " select
 if [[ $select == 1 ]]; then
   read -p "Enter Ur Application: " app
   read -p "Run Application {Y/N}: " run
@@ -391,7 +391,7 @@ elif [[ $select == 3 ]]; then
   3.Remove Lock {Root}
   4.Safari Jit {iOS < 7.1.2}
   ${n}"
-  read -p "itechsking@:~# " select
+  read -p "Jerry4539@:~# " select
   if [[ $select == 1 ]]; then
     read -p "LHOST: " host
     read -p "LPORT: " port
@@ -463,7 +463,7 @@ elif [[ $select == 12 ]]; then
   # 2.
   # 99.Menu
   # ${n}"
-  # read -p "itechsking@:~# " select
+  # read -p "Jerry4539@:~# " select
   # if [[ $select == 1 ]]; then
   manu=$(adb shell getprop ro.product.manufacturer)
   model=$(adb shell getprop ro.product.model)
@@ -949,7 +949,7 @@ elif [[ $select == 15 ]]; then
   echo -e "${lh}
   1.Scanning APK Without Authentication
   ${n}"
-  read -p "itechsking@:~# " select
+  read -p "Jerry4539@:~# " select
   if [[ $select == 1 ]]; then
 
     milf() {
